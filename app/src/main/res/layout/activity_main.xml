@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_green_dark"
+    android:background="@color/black"
     tools:context=".MainActivity">
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="145dp"
+        android:layout_marginStart="220dp"
         android:rotation="0"
         android:shadowColor="@android:color/holo_blue_dark"
         android:text="ez"
@@ -19,5 +19,15 @@
         android:textColorHighlight="@android:color/black"
         android:textColorHint="@color/black"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="357dp" />
+        tools:layout_editor_absoluteY="52dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="400dp"
+        android:layout_height="397dp"
+        android:adjustViewBounds="false"
+        android:background="@color/black"
+        app:srcCompat="@drawable/soka"
+        tools:layout_editor_absoluteX="-5dp"
+        tools:layout_editor_absoluteY="198dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
